@@ -48,9 +48,8 @@ header div img {
 
 }
 
-
 main {
-    max-width: 580px;
+    max-width: 360px;
     width: 90%;
     margin: 32px auto;
     display: grid;
@@ -95,7 +94,7 @@ section ul li:hover {
     transform: scale(1.1);
 }
 
-.games-list img {
+.game-list img {
     width: 90px;
     border-radius: 8px;
 }
@@ -104,6 +103,11 @@ section ul li:hover {
     width: 70px;
     border-radius: 50%;
     border: 1px solid #443e54;
+    margin-right: 20px;
+}
+
+.social-list svg {
+    margin-right: 20px;
 }
 
 /* animation */
@@ -151,4 +155,15 @@ main section:nth-child(3) {
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+/* swiper */
+
+section {
+    overflow: hidden;
+}
+
+section ul {
+    flex-wrap: nowrap;
+    gap: 0;
 }
